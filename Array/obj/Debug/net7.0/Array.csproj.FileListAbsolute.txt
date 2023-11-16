@@ -1,0 +1,14 @@
+D:\Prashant\Array\bin\Debug\net7.0\Array.exe
+D:\Prashant\Array\bin\Debug\net7.0\Array.deps.json
+D:\Prashant\Array\bin\Debug\net7.0\Array.runtimeconfig.json
+D:\Prashant\Array\bin\Debug\net7.0\Array.dll
+D:\Prashant\Array\bin\Debug\net7.0\Array.pdb
+D:\Prashant\Array\obj\Debug\net7.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prashant\Array\obj\Debug\net7.0\Array.AssemblyInfoInputs.cache
+D:\Prashant\Array\obj\Debug\net7.0\Array.AssemblyInfo.cs
+D:\Prashant\Array\obj\Debug\net7.0\Array.csproj.CoreCompileInputs.cache
+D:\Prashant\Array\obj\Debug\net7.0\Array.dll
+D:\Prashant\Array\obj\Debug\net7.0\refint\Array.dll
+D:\Prashant\Array\obj\Debug\net7.0\Array.pdb
+D:\Prashant\Array\obj\Debug\net7.0\Array.genruntimeconfig.cache
+D:\Prashant\Array\obj\Debug\net7.0\ref\Array.dll

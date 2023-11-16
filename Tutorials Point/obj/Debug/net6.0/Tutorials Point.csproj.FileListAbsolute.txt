@@ -1,0 +1,14 @@
+D:\Prashant\Tutorials Point\bin\Debug\net6.0\Tutorials Point.exe
+D:\Prashant\Tutorials Point\bin\Debug\net6.0\Tutorials Point.deps.json
+D:\Prashant\Tutorials Point\bin\Debug\net6.0\Tutorials Point.runtimeconfig.json
+D:\Prashant\Tutorials Point\bin\Debug\net6.0\Tutorials Point.dll
+D:\Prashant\Tutorials Point\bin\Debug\net6.0\Tutorials Point.pdb
+D:\Prashant\Tutorials Point\obj\Debug\net6.0\Tutorials Point.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prashant\Tutorials Point\obj\Debug\net6.0\Tutorials Point.AssemblyInfoInputs.cache
+D:\Prashant\Tutorials Point\obj\Debug\net6.0\Tutorials Point.AssemblyInfo.cs
+D:\Prashant\Tutorials Point\obj\Debug\net6.0\Tutorials Point.csproj.CoreCompileInputs.cache
+D:\Prashant\Tutorials Point\obj\Debug\net6.0\Tutorials Point.dll
+D:\Prashant\Tutorials Point\obj\Debug\net6.0\refint\Tutorials Point.dll
+D:\Prashant\Tutorials Point\obj\Debug\net6.0\Tutorials Point.pdb
+D:\Prashant\Tutorials Point\obj\Debug\net6.0\Tutorials Point.genruntimeconfig.cache
+D:\Prashant\Tutorials Point\obj\Debug\net6.0\ref\Tutorials Point.dll
