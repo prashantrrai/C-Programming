@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Learning\\Array\\Array.csproj": {}
+    "D:\\C# Learning\\OOPS\\OOPS.csproj": {}
   },
   "projects": {
-    "D:\\C# Learning\\Array\\Array.csproj": {
+    "D:\\C# Learning\\OOPS\\OOPS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Learning\\Array\\Array.csproj",
-        "projectName": "Array",
-        "projectPath": "D:\\C# Learning\\Array\\Array.csproj",
+        "projectUniqueName": "D:\\C# Learning\\OOPS\\OOPS.csproj",
+        "projectName": "OOPS",
+        "projectPath": "D:\\C# Learning\\OOPS\\OOPS.csproj",
         "packagesPath": "C:\\Users\\sscss\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Learning\\Array\\obj\\",
+        "outputPath": "D:\\C# Learning\\OOPS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sscss\\AppData\\Roaming\\NuGet\\NuGet.Config",

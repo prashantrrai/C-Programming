@@ -12,3 +12,17 @@ D:\Prashant\Array\obj\Debug\net7.0\refint\Array.dll
 D:\Prashant\Array\obj\Debug\net7.0\Array.pdb
 D:\Prashant\Array\obj\Debug\net7.0\Array.genruntimeconfig.cache
 D:\Prashant\Array\obj\Debug\net7.0\ref\Array.dll
+D:\C# Learning\Array\bin\Debug\net7.0\Array.exe
+D:\C# Learning\Array\bin\Debug\net7.0\Array.deps.json
+D:\C# Learning\Array\bin\Debug\net7.0\Array.runtimeconfig.json
+D:\C# Learning\Array\bin\Debug\net7.0\Array.dll
+D:\C# Learning\Array\bin\Debug\net7.0\Array.pdb
+D:\C# Learning\Array\obj\Debug\net7.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Learning\Array\obj\Debug\net7.0\Array.AssemblyInfoInputs.cache
+D:\C# Learning\Array\obj\Debug\net7.0\Array.AssemblyInfo.cs
+D:\C# Learning\Array\obj\Debug\net7.0\Array.csproj.CoreCompileInputs.cache
+D:\C# Learning\Array\obj\Debug\net7.0\Array.dll
+D:\C# Learning\Array\obj\Debug\net7.0\refint\Array.dll
+D:\C# Learning\Array\obj\Debug\net7.0\Array.pdb
+D:\C# Learning\Array\obj\Debug\net7.0\Array.genruntimeconfig.cache
+D:\C# Learning\Array\obj\Debug\net7.0\ref\Array.dll
