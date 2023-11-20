@@ -1,0 +1,11 @@
+D:\C# Learning\bookselling.Model\bin\Debug\net6.0\bookselling.Model.deps.json
+D:\C# Learning\bookselling.Model\bin\Debug\net6.0\bookselling.Model.dll
+D:\C# Learning\bookselling.Model\bin\Debug\net6.0\bookselling.Model.pdb
+D:\C# Learning\bookselling.Model\obj\Debug\net6.0\bookselling.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Learning\bookselling.Model\obj\Debug\net6.0\bookselling.Model.AssemblyInfoInputs.cache
+D:\C# Learning\bookselling.Model\obj\Debug\net6.0\bookselling.Model.AssemblyInfo.cs
+D:\C# Learning\bookselling.Model\obj\Debug\net6.0\bookselling.Model.csproj.CoreCompileInputs.cache
+D:\C# Learning\bookselling.Model\obj\Debug\net6.0\bookselling.Model.dll
+D:\C# Learning\bookselling.Model\obj\Debug\net6.0\refint\bookselling.Model.dll
+D:\C# Learning\bookselling.Model\obj\Debug\net6.0\bookselling.Model.pdb
+D:\C# Learning\bookselling.Model\obj\Debug\net6.0\ref\bookselling.Model.dll
