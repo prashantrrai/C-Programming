@@ -1,0 +1,17 @@
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\bin\Debug\net6.0\BookSelling.DataAccess.deps.json
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\bin\Debug\net6.0\BookSelling.DataAccess.runtimeconfig.json
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\bin\Debug\net6.0\BookSelling.DataAccess.dll
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\bin\Debug\net6.0\BookSelling.DataAccess.pdb
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\bin\Debug\net6.0\BookSelling.Model.dll
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\bin\Debug\net6.0\BookSelling.Model.pdb
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\obj\Debug\net6.0\BookSelling.DataAccess.csproj.AssemblyReference.cache
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\obj\Debug\net6.0\BookSelling.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\obj\Debug\net6.0\BookSelling.DataAccess.AssemblyInfoInputs.cache
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\obj\Debug\net6.0\BookSelling.DataAccess.AssemblyInfo.cs
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\obj\Debug\net6.0\BookSelling.DataAccess.csproj.CoreCompileInputs.cache
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\obj\Debug\net6.0\BookSelling.DataAccess.csproj.CopyComplete
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\obj\Debug\net6.0\BookSelling.DataAccess.dll
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\obj\Debug\net6.0\refint\BookSelling.DataAccess.dll
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\obj\Debug\net6.0\BookSelling.DataAccess.pdb
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\obj\Debug\net6.0\BookSelling.DataAccess.genruntimeconfig.cache
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.DataAccess\obj\Debug\net6.0\ref\BookSelling.DataAccess.dll

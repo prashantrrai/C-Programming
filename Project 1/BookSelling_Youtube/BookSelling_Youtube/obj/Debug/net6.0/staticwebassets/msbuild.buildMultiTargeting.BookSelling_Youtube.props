@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BookSelling_Youtube.props" />
+</Project>

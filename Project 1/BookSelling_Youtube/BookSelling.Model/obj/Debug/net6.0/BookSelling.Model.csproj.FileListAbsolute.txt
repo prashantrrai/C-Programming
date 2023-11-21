@@ -1,0 +1,14 @@
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\bin\Debug\net6.0\BookSelling.Model.deps.json
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\bin\Debug\net6.0\BookSelling.Model.dll
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\bin\Debug\net6.0\BookSelling.Model.pdb
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\obj\Debug\net6.0\BookSelling.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\obj\Debug\net6.0\BookSelling.Model.AssemblyInfoInputs.cache
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\obj\Debug\net6.0\BookSelling.Model.AssemblyInfo.cs
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\obj\Debug\net6.0\BookSelling.Model.csproj.CoreCompileInputs.cache
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\obj\Debug\net6.0\BookSelling.Model.dll
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\obj\Debug\net6.0\refint\BookSelling.Model.dll
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\obj\Debug\net6.0\BookSelling.Model.pdb
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\obj\Debug\net6.0\ref\BookSelling.Model.dll
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\bin\Debug\net6.0\BookSelling.Model.runtimeconfig.json
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\obj\Debug\net6.0\BookSelling.Model.csproj.AssemblyReference.cache
+D:\C# Learning\Project 1\BookSelling_Youtube\BookSelling.Model\obj\Debug\net6.0\BookSelling.Model.genruntimeconfig.cache
