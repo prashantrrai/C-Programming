@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\World Map Web.bundle.scp.css"
     },
     {
+      "Id": "D:\\C# Learning\\Project 1\\World Map\\World Map Web\\wwwroot\\css\\BootsWatchTheme.css",
+      "PackagePath": "staticwebassets\\css\\BootsWatchTheme.css"
+    },
+    {
       "Id": "D:\\C# Learning\\Project 1\\World Map\\World Map Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

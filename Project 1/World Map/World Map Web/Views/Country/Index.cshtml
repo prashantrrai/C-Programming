@@ -1,0 +1,72 @@
+﻿
+@model IEnumerable<Country>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container p-3 mb-5">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Add Country</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a class="btn btn-outline-primary" asp-controller="Country" asp-action="Create"><i class="bi bi-plus-circle"></i> &nbsp; Create</a>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="d-flex justify-content-center">
+    <table class="table  table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>CountryId</th>
+                <th>CountryName</th>
+                <th>Abbreviation</th>
+                <th>Currency</th>
+                <th>DialingCode</th>
+                <th>TimeZone</th>
+                <th>CountryCapital</th>
+                <th>Flag</th>
+                <th>CreatedBy</th>
+                <th>CreatedAt</th>
+                <th>ModifiedBy</th>
+                <th>ModifiedAt</th>
+                <th>IsActive</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td>@obj.CountryId</td>
+                    <td>@obj.CountryName</td>
+                    <td>@obj.Abbreviation</td>
+                    <td>@obj.Currency</td>
+                    <td>@obj.DialingCode</td>
+                    <td>@obj.TimeZone</td>
+                    <td>@obj.CountryCapital</td>
+                    <td>@obj.CountryCapital</td>
+                    <td>@obj.Flag</td>
+                    <td>@obj.CreatedBy</td>
+                    <td>@obj.CreatedAt</td>
+                    <td>@obj.ModifiedBy</td>
+                    <td>@obj.ModifiedAt</td>
+                    <td>@obj.IsActive</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+

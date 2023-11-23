@@ -10,5 +10,7 @@ namespace World_Map_Web.Data
         }
 
         public DbSet<Country> Country { get; set; }
+        public DbSet<State> State { get; set; }
+        public DbSet<City> City { get; set; }
     }
 }

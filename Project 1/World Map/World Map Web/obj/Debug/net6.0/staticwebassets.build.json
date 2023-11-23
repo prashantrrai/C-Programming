@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3ZnjLAZToB2l3fFb52nJqEh0fTp7EG1CFSNIFk6oETo=",
+  "Hash": "Tc7pjYOdlYTXDepZJajaO1FtkN0KJWsB7Clbxurd9DA=",
   "Source": "World Map Web",
   "BasePath": "_content/World Map Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\C# Learning\\Project 1\\World Map\\World Map Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\World Map Web.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\C# Learning\\Project 1\\World Map\\World Map Web\\wwwroot\\css\\BootsWatchTheme.css",
+      "SourceId": "World Map Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C# Learning\\Project 1\\World Map\\World Map Web\\wwwroot\\",
+      "BasePath": "_content/World Map Web",
+      "RelativePath": "css/BootsWatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\BootsWatchTheme.css"
     },
     {
       "Identity": "D:\\C# Learning\\Project 1\\World Map\\World Map Web\\wwwroot\\css\\site.css",
