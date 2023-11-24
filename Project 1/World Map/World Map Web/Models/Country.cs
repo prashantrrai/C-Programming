@@ -1,9 +1,11 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Newtonsoft.Json.Serialization;
 
 namespace World_Map_Web.Models
 {
-    public class Country
+    public class Country 
     {
         [Key]
         public int CountryId { get; set; }
@@ -23,22 +25,22 @@ namespace World_Map_Web.Models
         public int DialingCode { get; set; }
 
         [Required]
-        public string TimeZone { get; set; }
+        public string? TimeZone { get; set; }
 
         public string CountryCapital { get; set; }
 
         [Required]
-        public string Flag { get; set; }
+        public string? Flag { get; set; }
 
-        public string CreatedBy { get; set; }
+        public string? CreatedBy { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime? CreatedAt { get; set; } = DateTime.Now;
 
-        public string ModifiedBy { get; set; }
+        public string? ModifiedBy { get; set; }
 
-        public DateTime ModifiedAt { get; set; } = DateTime.Now;
+        public DateTime? ModifiedAt { get; set; } = DateTime.Now;
 
-        public bool IsActive { get; set; } = false;
+        public bool? IsActive { get; set; } = false;
 
         //public virtual ICollection<State> States { get; set; }
 

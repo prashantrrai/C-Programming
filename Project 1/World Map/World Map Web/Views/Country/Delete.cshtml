@@ -1,0 +1,78 @@
+﻿@model Country
+
+<form method="post" asp-action="Delete">
+	<input type="hidden" asp-for="CountryId" />
+	<div class="border p-5 mt-4 d-flex justify-content-around">
+		<div>
+			<div class="row pb-2">
+				<h2 class="text-primary">Delete Country</h2>
+				<hr />
+			</div>
+
+			<div action="mb-3">
+				<label asp-for="CountryName">Name</label>
+				<input asp-for="CountryName" action="form-control" disabled/>
+			</div>
+
+			<div action="mb-3">
+				<label asp-for="Abbreviation">Abbreviation</label>
+				<input asp-for="Abbreviation" action="form-control" disabled />
+			</div>
+
+			<div action="mb-3">
+				<label asp-for="Currency">Currency</label>
+				<input asp-for="Currency" action="form-control" disabled />
+
+			</div>
+
+			<div action="mb-3">
+				<label asp-for="DialingCode">Dialing Code</label>
+				<input asp-for="DialingCode" action="form-control" disabled />
+			</div>
+
+			<div action="mb-3">
+				<label asp-for="TimeZone">TimeZone</label>
+				<input asp-for="TimeZone" action="form-control" disabled />
+
+			</div>
+
+			<div action="mb-3">
+				<label asp-for="CountryCapital">Country Capital</label>
+				<input asp-for="CountryCapital" action="form-control" disabled />
+
+			</div>
+
+			<div action="mb-3">
+				<label asp-for="Flag">Flag</label>
+				<input asp-for="Flag" action="form-control" disabled />
+
+			</div>
+
+			<div action="mb-3">
+				<label asp-for="CreatedBy">CreatedBy</label>
+				<input asp-for="CreatedBy" action="form-control" disabled />
+
+			</div>
+
+
+			<div action="mb-3">
+				<label asp-for="ModifiedBy">ModifiedBy</label>
+				<input asp-for="ModifiedBy" action="form-control" disabled />
+
+			</div>
+
+			<div action="mb-3">
+				<label asp-for="IsActive">IsActive</label>
+				<input asp-for="IsActive" action="form-control" disabled />
+
+			</div>
+
+			<div class="d-flex justify-content-around">
+				<button class="btn btn-outline-danger" type="submit" style="width: 150px">Remove</button>
+
+				<a class="btn" asp-controller="Country" asp-action="Index">Back to Previous</a>
+			</div>
+		</div>
+	</div>
+</form>
+

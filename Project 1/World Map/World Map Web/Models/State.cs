@@ -18,8 +18,10 @@ namespace World_Map_Web.Models
         public string StateCapital { get; set; }
 
         [Required]
-        [ForeignKey("Country")]
+        [ForeignKey("country")]
         public int CountryId { get; set; }
+
+        public Country country { get; set; }
 
         //public virtual Country Country { get; set; }
         public string CreatedBy { get; set; }
@@ -35,8 +37,4 @@ namespace World_Map_Web.Models
             IsActive = false;
         }
     }
-
-
-
-
 }

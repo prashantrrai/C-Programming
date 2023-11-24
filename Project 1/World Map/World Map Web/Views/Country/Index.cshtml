@@ -5,6 +5,13 @@
     ViewData["Title"] = "Index";
 }
 
+@* @if(TempData["success"] != null)
+{
+    <h2>@TempData["success"]</h2>
+} *@
+@* <partial name="_Notifications"/> *@
+
+
 <div class="container p-3 mb-5">
     <div class="row pt-4">
         <div class="col-6">
@@ -38,6 +45,8 @@
                 <th>ModifiedBy</th>
                 <th>ModifiedAt</th>
                 <th>IsActive</th>
+                <th></th>
+                <th></th>
             </tr>
         </thead>
 
@@ -52,13 +61,24 @@
                     <td>@obj.DialingCode</td>
                     <td>@obj.TimeZone</td>
                     <td>@obj.CountryCapital</td>
-                    <td>@obj.CountryCapital</td>
                     <td>@obj.Flag</td>
                     <td>@obj.CreatedBy</td>
                     <td>@obj.CreatedAt</td>
                     <td>@obj.ModifiedBy</td>
                     <td>@obj.ModifiedAt</td>
                     <td>@obj.IsActive</td>
+                    <td>
+                        <div class="btn-group w-75" role="group">
+                            <a class="btn btn-primary mx-1" asp-controller="Country" asp-action="Edit" asp-route-id="@obj.CountryId"> <i class="bi bi-pencil-square"></i> Edit</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="btn-group w-75" role="group">
+                            <a class="btn btn-primary mx-1" asp-controller="Country" asp-action="Delete" asp-route-id="@obj.CountryId">
+                                <i class="bi bi-trash3-fill"></i> Remove
+                            </a>
+                        </div>
+                    </td>
                 </tr>
             }
         </tbody>
