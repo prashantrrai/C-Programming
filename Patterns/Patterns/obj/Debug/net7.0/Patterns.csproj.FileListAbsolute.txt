@@ -1,0 +1,14 @@
+D:\C# Learning\Patterns\Patterns\bin\Debug\net7.0\Patterns.exe
+D:\C# Learning\Patterns\Patterns\bin\Debug\net7.0\Patterns.deps.json
+D:\C# Learning\Patterns\Patterns\bin\Debug\net7.0\Patterns.runtimeconfig.json
+D:\C# Learning\Patterns\Patterns\bin\Debug\net7.0\Patterns.dll
+D:\C# Learning\Patterns\Patterns\bin\Debug\net7.0\Patterns.pdb
+D:\C# Learning\Patterns\Patterns\obj\Debug\net7.0\Patterns.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Learning\Patterns\Patterns\obj\Debug\net7.0\Patterns.AssemblyInfoInputs.cache
+D:\C# Learning\Patterns\Patterns\obj\Debug\net7.0\Patterns.AssemblyInfo.cs
+D:\C# Learning\Patterns\Patterns\obj\Debug\net7.0\Patterns.csproj.CoreCompileInputs.cache
+D:\C# Learning\Patterns\Patterns\obj\Debug\net7.0\Patterns.dll
+D:\C# Learning\Patterns\Patterns\obj\Debug\net7.0\refint\Patterns.dll
+D:\C# Learning\Patterns\Patterns\obj\Debug\net7.0\Patterns.pdb
+D:\C# Learning\Patterns\Patterns\obj\Debug\net7.0\Patterns.genruntimeconfig.cache
+D:\C# Learning\Patterns\Patterns\obj\Debug\net7.0\ref\Patterns.dll
