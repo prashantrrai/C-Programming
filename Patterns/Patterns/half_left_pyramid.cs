@@ -6,21 +6,15 @@ using System.Threading.Tasks;
 
 namespace Patterns
 {
-
-    class half_right_pyramid
+    class half_left_pyramid
     {
         public void star(int n)
         {
             for (int i = 1; i < n + 1; i++)
             {
-                for (int s = 1; s <2*( n - i) + 1; s++)
-                {
-                    Console.Write(" ");
-                }
-
                 for (int j = 1; j < i + 1; j++)
                 {
-                    Console.Write(" *");
+                    Console.Write("* ");
                 }
                 Console.WriteLine();
             }
@@ -30,13 +24,9 @@ namespace Patterns
         {
             for (int i = 1; i < n + 1; i++)
             {
-                for (int j = 1; j < n-i+1; j++)
-                {
-                    Console.Write(" ");
-                }
                 for (int j = 1; j < i + 1; j++)
                 {
-                    Console.Write($"{j}");
+                    Console.Write($"{j} ");
                 }
                 Console.WriteLine();
             }
@@ -47,13 +37,9 @@ namespace Patterns
             int count = 1;
             for (int i = 1; i < n + 1; i++)
             {
-                for (int j = 1; j < n - i + 1; j++)
-                {
-                    Console.Write(" ");
-                }
                 for (int j = 1; j < i + 1; j++)
                 {
-                    Console.Write($"{count}");
+                    Console.Write($"{count} ");
                     count += 1;
                 }
                 Console.WriteLine();
@@ -68,13 +54,9 @@ namespace Patterns
 
             for (int i = 1; i < n + 1; i++)
             {
-                for (int j = 1; j < n - i + 1; j++)
-                {
-                    Console.Write(" ");
-                }
                 for (int j = 1; j < i + 1; j++)
                 {
-                    Console.Write($"{count}");
+                    Console.Write($"{count} ");
                     count -= 1;
                 }
                 Console.WriteLine();
@@ -169,30 +151,5 @@ namespace Patterns
         }
 
 
-        public void misc4(int n)
-        {
-
-
-            for (int i = 1; i < n + 1; i++)
-            {
-                int temp = i*(i+1)/2;
-
-                for(int s=1; s < n - i+1; s++)
-                {
-                    Console.Write(" ");
-                }
-
-                for (int j = 1; j < i + 1; j++)
-                {
-                    Console.Write($"{temp}");
-                    temp--;
-                }
-                Console.WriteLine();
-            }
-
-        }
-
-
     }
-
 }

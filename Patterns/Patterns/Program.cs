@@ -4,155 +4,6 @@ using Patterns;
 
 namespace Pattern
 {
-    class half_left_pyramid
-    {
-        public void star(int n)
-        {
-            for(int i = 1; i < n+1; i++)
-            {
-                for (int j = 1; j < i+1; j++)
-                {
-                    Console.Write("* ");
-                }
-                Console.WriteLine();
-            }
-        }
-
-        public void number(int n)
-        {
-            for (int i = 1; i < n + 1; i++)
-            {
-                for (int j = 1; j < i + 1; j++)
-                {
-                    Console.Write($"{j} ");
-                }
-                Console.WriteLine();
-            }
-        }
-
-        public void floydtriangle(int n)
-        {
-            int count = 1;
-            for (int i = 1; i < n + 1; i++)
-            {
-                for (int j = 1; j < i + 1; j++)
-                {
-                    Console.Write($"{count} ");
-                    count += 1;
-                }
-                Console.WriteLine();
-            }
-        }
-
-
-        public void reversefloydtriangle(int n)
-        {
-            int count = (n*(n+1))/2;
-            //Console.WriteLine(count);
-
-            for (int i = 1; i < n + 1; i++)
-            {
-                for (int j = 1; j < i + 1; j++)
-                {
-                    Console.Write($"{count} ");
-                    count -= 1;
-                }
-                Console.WriteLine();
-            }
-        }
-
-
-        public void reversefloydtriangle_withoutcounter(int n)
-        {
-
-            for (int i = 1; i <= n + 1; i++)
-            {
-                for (int j = 1; j < i + 1; j++)
-                {
-                    Console.Write($"{i * (i - 1) / 2 + j} ");
-                }
-                Console.WriteLine();
-            }
-        }
-        public void samenumber(int n)
-        {
-            for (int i = 1; i < n + 1; i++)
-            {
-                for (int j = 1; j < i + 1; j++)
-                {
-                    Console.Write($"{i} ");
-                }
-                Console.WriteLine();
-            }
-        }
-
-
-
-
-        public void abcd(int n)
-        {
-            int temp = 65;
-            for (int i = 1; i < n + 1; i++)
-            {
-                for (int j = 0; j < i; j++)
-                {
-                    Console.Write(Convert.ToChar(temp));
-                    temp += 1;
-                }
-                Console.WriteLine();
-            }
-        }
-
-
-        public void misc1(int n)
-        {
-
-            for (int i = 1; i < n+1; i++)
-            {
-                for (int j = 1; j < i + 1; j++)
-                {
-                    Console.Write($"{i * j + j} ");
-                }
-                Console.WriteLine();
-            }
-        }
-        public void misc2(int n)
-        {
-
-            for (int i = 1; i <= 5; i++)
-            {
-                for (int j = 1; j < i + 1; j++)
-                {
-                    Console.Write($"{i * j + j - 1} ");
-                }
-                Console.WriteLine();
-            }
-        }
-
-
-
-        public void misc3(int n)
-        {
-            for (int i = 1; i < n + 1; i++)
-            {
-                int temp = i;
-
-                for (int j = 1; j < i + 1; j++)
-                {
-                    Console.Write($"{temp} ");
-                    //temp = temp + n - j;
-                    temp = 2 * n - i + 1;
-                }
-                Console.WriteLine();
-            }
-            
-        }
-
-
-    }
-
-
-
     class DriverCode
     {
         static void Main(string[] args)
@@ -162,6 +13,11 @@ namespace Pattern
             Full_Top_Pyramid obj3 = new Full_Top_Pyramid();
             Full_Down_Pyramid obj4 = new Full_Down_Pyramid();
             Diamond obj5 = new Diamond();
+            Heart obj6 = new Heart();
+            Right_Pascal_Triangle obj7 = new Right_Pascal_Triangle();
+            Hollow obj8 = new Hollow();
+            Pascals_Triangle obj9 = new Pascals_Triangle();
+            Pattern_Task obj10 = new Pattern_Task();
 
             Console.WriteLine("Enter the Value :");
             int num = Convert.ToInt32(Console.ReadLine());
@@ -190,12 +46,37 @@ namespace Pattern
             //obj2.misc1(num);
             //obj2.misc2(num);
             //obj2.misc3(num);
+            //obj2.misc4(num);
 
             //obj3.star(num);
             //obj4.left(num);
             //obj4.right(num);
             //obj4.full(num);
-            obj5.diamond(num);
+
+            //obj5.diamond(num);
+            //obj5.diamond_odd(num);
+            //obj5.numerical_diamond_1(num);
+            //obj5.numerical_diamond_2(num);
+            //obj5.numerical_diamond_3(num);
+
+            //obj6.Heart_Pattern();
+
+            //obj7.left_pascal(num);
+            //obj7.right_pascal(num);
+            //obj7.sand_glass(num);
+
+            //obj8.triangle_hollow(num);
+            //obj8.pyramid_hollow(num);
+
+
+            //obj9.pascal(num);
+            //obj10.pattern2(num);
+            //obj10.pattern3(num);
+            //obj10.pattern4(num);
+            //obj10.pattern5(num);
+            //obj10.pattern6(num);
+            obj10.pattern7(num);
+
 
             Console.WriteLine("======================================================");
 
