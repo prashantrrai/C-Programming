@@ -98,7 +98,14 @@ namespace Patterns
                 temp -= 1;
                 Console.WriteLine();
             };
-            Console.WriteLine("   6");
+
+            for (int k = 1; k< n+2; k++)
+            {
+                Console.Write(" ");
+            }
+                Console.Write($"{--temp}");
+                Console.WriteLine();
+
             temp = 9;
             for (int i = 1; i < n + 1; i++)
             {
