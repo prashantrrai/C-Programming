@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Registration>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="d-flex justify-content-around">
+    <div><h2>Registration Data</h2></div>
+    <div><a asp-controller="Registration" asp-action="Create" class="btn btn-primary">Create</a></div>
+</div>
+
+
+<table class="table table-bordered table-striped table-primary" style="width:100%">
+    <thead>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Phone</th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </thead>
+    <tbody>
+        @foreach(var value in Model)
+        {
+            <tr>
+                <td>@value.Name </td>
+                <td>@value.Email </td>
+                <td>@value.Password </td>
+                <td>@value.Phone </td>
+                <td>
+                    <div class="btn-group w-75" role="group">
+                        <a class="btn btn-success mx-1" asp-controller="Registration" asp-action="Edit" asp-route-id="@value.Id"> Edit</a>
+                    </div>
+                </td>
+                <td>
+                    <div class="btn-group w-75" role="group">
+                        <a class="btn btn-danger mx-1" asp-controller="Registration" asp-action="Delete" asp-route-id="@value.Id">Remove</a>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <a class="btn btn-outline-warning" asp-controller="Registration" asp-action="Detail" asp-route-id="@value.Id">Details</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

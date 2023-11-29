@@ -1,0 +1,19 @@
+﻿@model employee
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<form method="post" asp-action="Create">
+    <div>
+        <input asp-for="username" placeholder="enter username"/>
+    </div>
+    <div>
+        <input type="password" asp-for="password"  placeholder="enter password"/>
+    </div>
+    <div>
+        <a asp-controller="simple" asp-action="Create">Add</a>
+        <a asp-controller="simple" asp-action="Index">Back</a>
+    </div>
+</form>

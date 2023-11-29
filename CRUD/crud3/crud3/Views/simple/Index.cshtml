@@ -1,0 +1,34 @@
+﻿@model IEnumerable<employee>;
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="d-flex justify-content-around">
+    <h1>This is Home Page</h1>
+    <div><a asp-controller="simple" asp-action="Create">Create</a></div>
+</div>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Password</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td>@obj.username</td>
+                <td>@obj.password</td>
+                <td><a asp-controller="simple" asp-action="Details" asp-route-id="@obj.employeeId">Details</a></td>
+                <td><a asp-controller="simple" asp-action="Edit" asp-route-id="@obj.employeeId">Edit</a></td>
+                <td><a asp-controller="simple" asp-action="Delete" asp-route-id="@obj.employeeId">Remove</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

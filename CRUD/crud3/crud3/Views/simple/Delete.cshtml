@@ -1,0 +1,19 @@
+﻿@model employee
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<form method="get" asp-action="Delete">
+    <div>
+        <input asp-for="username" disabled />
+    </div>
+    <div>
+        <input asp-for="password" readonly />
+    </div>
+    <div>
+        <a asp-controller="simple" asp-action="Delete">Delete</a>
+        <a asp-controller="simple" asp-action="Index">Back</a>
+    </div>
+</form>

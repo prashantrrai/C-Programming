@@ -1,0 +1,18 @@
+﻿@model employee
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<form asp-action="Details">
+    <div>
+        <input asp-for="username" disabled/>
+    </div>
+    <div>
+        <input asp-for="password" readonly/>
+    </div>
+    <div>
+        <a asp-controller="simple" asp-action="Index">Back</a>
+    </div>
+</form>
