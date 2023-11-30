@@ -70,12 +70,14 @@ namespace Pattern
 
 
             //obj9.pascal(num);
+
+            //obj10.pattern1(num);
             //obj10.pattern2(num);
             //obj10.pattern3(num);
-            obj10.pattern4(num);
+            //obj10.pattern4(num);
             //obj10.pattern5(num);
             //obj10.pattern6(num);
-            //obj10.pattern7(num);
+            obj10.pattern7(num);
 
 
             Console.WriteLine("======================================================");

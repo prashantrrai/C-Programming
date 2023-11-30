@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6/V4EuO9m8fSdyyUst7B31uruiV9Y7KoecZrEWEokOc=",
+  "Hash": "W8ES19FNMcrTWOsaPkM3SAnrfgO9C7B7ULQL1dkHd1k=",
   "Source": "crud3",
   "BasePath": "_content/crud3",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\C# Learning\\CRUD\\crud3\\crud3\\wwwroot\\css\\theme.css",
+      "SourceId": "crud3",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C# Learning\\CRUD\\crud3\\crud3\\wwwroot\\",
+      "BasePath": "_content/crud3",
+      "RelativePath": "css/theme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\theme.css"
     },
     {
       "Identity": "D:\\C# Learning\\CRUD\\crud3\\crud3\\wwwroot\\favicon.ico",

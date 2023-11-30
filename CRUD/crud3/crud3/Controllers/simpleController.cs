@@ -56,6 +56,7 @@ namespace crud3.Controllers
                 {
                     _datacontext.employees.Add(obj);
                     _datacontext.SaveChanges();
+					TempData["success"] = "employee added successfully";
                     return RedirectToAction("Index");
                 }
                 return View(obj);
@@ -101,6 +102,7 @@ namespace crud3.Controllers
 					_datacontext.SaveChanges();
 				}
 
+                TempData["success"] = "employee updated successfully";
                 return RedirectToAction("Index");
 			}
 			catch
@@ -137,7 +139,7 @@ namespace crud3.Controllers
 
                 _datacontext.employees.Remove(data);
 				_datacontext.SaveChanges();
-
+				TempData["success"] = "employee deleted successfully";
 				return RedirectToAction("Index");
 			}
 			catch
