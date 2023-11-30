@@ -52,55 +52,92 @@ namespace crud3.Controllers
 		{
 			try
 			{
-				if (ModelState.IsValid)
-				{
-					_datacontext.employees.Add(obj);
-					_datacontext.SaveChanges();
-					return RedirectToAction("Index");
-				}
-
-				return View(obj);
-			}
-			catch (Exception err)
+                if (ModelState.IsValid)
+                {
+                    _datacontext.employees.Add(obj);
+                    _datacontext.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                return View(obj);
+            }
+			catch(Exception err)
 			{
 				throw err;
-			}
+            }
+
 		}
 
 		// GET: simpleController/Edit/5
 		public ActionResult Edit(int? id)
 		{
-			return View();
+			if(id == null)
+			{
+                return NotFound();
+            }
+
+			var data = _datacontext.employees.Find(id);
+			if(data == null)
+			{
+				return NotFound(data);
+			}
+            return View(data);
 		}
 
 		// POST: simpleController/Edit/5
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public ActionResult Edit(int? id, IFormCollection collection)
+		public ActionResult Edit(int? id, employee obj)
 		{
 			try
 			{
-				return RedirectToAction("Index");
+                var data = _datacontext.employees.Find(id);
+
+				data.username = obj.username;
+				data.password = obj.password;
+
+				if (ModelState.IsValid)
+				{
+					_datacontext.employees.Update(data);
+					_datacontext.SaveChanges();
+				}
+
+                return RedirectToAction("Index");
 			}
 			catch
 			{
-				return View();
+				return View(obj);
 			}
 		}
 
 		// GET: simpleController/Delete/5
 		public ActionResult Delete(int? id)
 		{
-			return View();
+			if (id == null)
+			{
+				return NotFound();
+			}
+
+			var data = _datacontext.employees.Find(id);
+
+			if (data == null)
+			{
+				return NotFound();
+			}
+			return View(data);
 		}
 
 		// POST: simpleController/Delete/5
-		[HttpPost]
+		[HttpPost, ActionName("Delete")]
 		[ValidateAntiForgeryToken]
-		public ActionResult Delete(int? id, IFormCollection collection)
+		public ActionResult DeletePost(int? id)
 		{
 			try
 			{
+				var data = _datacontext.employees.Find(id);
+
+                _datacontext.employees.Remove(data);
+				_datacontext.SaveChanges();
+
 				return RedirectToAction("Index");
 			}
 			catch

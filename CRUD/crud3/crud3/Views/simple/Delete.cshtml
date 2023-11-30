@@ -5,7 +5,7 @@
 
 <h1>Delete</h1>
 
-<form method="get" asp-action="Delete">
+<form method="post" asp-action="Delete">
     <div>
         <input asp-for="username" disabled />
     </div>
@@ -13,7 +13,7 @@
         <input asp-for="password" readonly />
     </div>
     <div>
-        <a asp-controller="simple" asp-action="Delete">Delete</a>
-        <a asp-controller="simple" asp-action="Index">Back</a>
+        <button class="btn btn-primary" type="submit">Delete</button>
+        <button class="btn btn-dark" asp-controller="simple" asp-action="Index">Back</button>
     </div>
 </form>
